@@ -1,0 +1,81 @@
+.projectList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  font-size: 1.3rem;
+  // flex-wrap: wrap;
+
+  .projectCard {
+    display: flex;
+    justify-content: center;
+    // box-shadow: 1px 1px 10px 2px rgb(164, 190, 212);
+    border-radius: 0.75rem;
+    margin: 0 3rem;
+    background-color: rgba(41, 41, 41, 0.712);
+    margin: 1rem 0;
+    width: 75%;
+
+    .imageContainer {
+      display: flex;
+      // align-items: center;
+      flex-grow: 1;
+
+      img {
+        border-radius: 0.75rem 0 0 0.75rem;
+      }
+    }
+
+    .projectDescription {
+      display: flex;
+      // box-shadow: 1px 1px 10px 2px rgb(164, 190, 212);
+      flex-direction: column;
+      border-radius: 0.75rem;
+      justify-content: space-around;
+      align-items: center;
+      // flex-wrap: wrap;
+      width: 70%;
+
+      p {
+        // vertical-align: middle;
+        text-align: center;
+        width: 60%
+      }
+
+      .buttonContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 40%;
+
+        button {
+          padding: 0.75rem 1.3rem;
+          // background-color: rgb(7, 70, 126);
+          background-color: rgb(40, 165, 55);
+          border-radius: 0.4rem;
+          border: none;
+          cursor: pointer;
+
+          a {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-decoration: none;
+            color: aliceblue;
+
+            .reactIcon {
+              margin-right: 0.3rem;
+            }
+          }
+
+          &:hover {
+            // background-color: rgb(0, 132, 240);
+            background-color: rgb(33, 126, 33);
+          }
+        }
+      }
+    }
+  }
+}

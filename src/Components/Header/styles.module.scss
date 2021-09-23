@@ -1,0 +1,31 @@
+header {
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  position: fixed;
+  top: 5vh;
+  flex-wrap: wrap;
+  width: 100vw;
+  opacity: none;
+
+  ul {
+    list-style-type: none;
+    display: flex;
+
+    :link  {
+      text-decoration: none;
+    }
+
+    li {
+      color: aliceblue;
+      font-size: 1rem;
+      margin: 0 1rem;
+
+      &:hover {
+        // color: rgb(0, 132, 240);
+        color: rgb(12, 219, 12);
+        // text-decoration: underline;
+      }
+    }
+  }
+}

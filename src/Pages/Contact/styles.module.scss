@@ -1,0 +1,44 @@
+.contactContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: aliceblue;
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 25vh;
+    max-height: fit-content;
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    p {
+      font-size: 1.75rem;
+    }
+
+    .iconContainer {
+      display: flex;
+      width: 40vh;
+      align-items: center;
+      justify-content: space-around;
+      font-size: 4rem;
+
+      a {
+        color: aliceblue;
+      }
+
+      .reactIcon {
+        
+        &:hover {
+          color: rgb(12, 219, 12);
+        }
+      }
+    }
+  }
+}

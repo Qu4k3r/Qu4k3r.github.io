@@ -1,0 +1,43 @@
+.footer {
+  display: flex;
+  font-size: 0.8rem;
+  color: aliceblue;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: fixed;
+  flex-wrap: wrap;
+  bottom: 0.5vh;
+  width: 100vw;
+
+  span {
+    display: flex;
+    align-items: center;
+  }
+
+  .reactIcon {
+    vertical-align: auto;
+    margin: 0 0.3rem;
+    height: 100%;
+  }
+
+  div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contact {
+    display: flex;
+    justify-content: space-between;
+    // background-color: rgb(255, 9, 9);
+
+    a {
+      color: aliceblue;
+      text-decoration: none;
+      margin: 0 0.5rem;
+
+      &:hover {
+        color: rgb(12, 219, 12);
+      }
+    }
+  }
+}
