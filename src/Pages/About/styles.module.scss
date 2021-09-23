@@ -1,0 +1,39 @@
+.aboutContainer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  // background-color: rgba(0, 0, 0, 0.836);
+  // background: url('../../images/coding.jpg');
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  width: 100%;
+  color: aliceblue;
+
+  
+  .about {
+    display: flex;
+    flex-direction: column;
+
+    line-height: 2;
+
+    h1 {
+      font-size: 2.2rem;
+    }
+
+    p {
+      width: 40vw;
+      font-size: 1.4rem;
+      padding: 1.2rem 0;
+    }
+  }
+
+  .aboutMePicture {
+    flex-shrink: 1;
+    img {
+      height: 70vh;
+      border-radius: 1rem;
+      box-shadow: 1px 1px 7px 2px rgba(197, 211, 230, 0.863);
+    }
+  }
+}

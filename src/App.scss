@@ -1,0 +1,16 @@
+.App {
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.particles {
+  // background-image: linear-gradient(to bottom, #0e141b, #10161d, #111820, #121a22, #131c25, #141e28, #151f2c, #16212f, #172334, #172638, #18283d, #182b42);
+  background-image: linear-gradient(to bottom, #0d1016, #101319, #11161d, #131820, #141b24, #151c26, #151e29, #161f2b, #17202c, #18212e, #18232f, #192431);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -5;
+}
