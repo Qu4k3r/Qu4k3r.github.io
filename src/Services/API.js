@@ -23,7 +23,7 @@ const getMyProjects = async () => {
   }
 };
 
-module.exports = getMyProjects;
+export default getMyProjects;
 
 // images: [{}, {}, ...]
 // url: string
