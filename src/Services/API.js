@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 const axios = require('axios');
 
-module.exports = async () => {
+const getMyProjects = async () => {
   try {
     const {
       data: { projects },
@@ -22,6 +22,8 @@ module.exports = async () => {
     return error.message;
   }
 };
+
+export default getMyProjects;
 
 // images: [{}, {}, ...]
 // url: string
