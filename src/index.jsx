@@ -8,7 +8,7 @@ import './index.css';
 import App from './App';
 
 ReactGA.initialize('G-VXNLE0WQGC');
-ReactGA.send({ hitType: 'pageview', page: '/#' });
+ReactGA.send({ hitType: 'pageview', page: '/' });
 
 const tagManagerArgs = {
   gtmId: 'GTM-57N79LK',
