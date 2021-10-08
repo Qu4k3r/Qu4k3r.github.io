@@ -9208,6 +9208,11 @@ react-error-overlay@^6.0.9:
   resolved "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.9.tgz"
   integrity sha512-nQTTcUu+ATDbrSD1BZHr5kgSD4oF8OFjxun8uAaL8RwPBacGBNPf/yAuVVdx17N8XNzRDMrZ9XcKZHCjPW+9ew==
 
+react-ga4@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/react-ga4/-/react-ga4-1.1.1.tgz#3800decc791d858d27ba064d91d2b073ac50b6e7"
+  integrity sha512-x06O0Tg3nVGyBbsU27Px06sOv6u9VLXK4bDYVlMafLgK9pJYHVwhHlvwtR83mJvZRHK5HBkHwI9rdNPWM/vSWw==
+
 react-gtm-module@^2.0.11:
   version "2.0.11"
   resolved "https://registry.yarnpkg.com/react-gtm-module/-/react-gtm-module-2.0.11.tgz#14484dac8257acd93614e347c32da9c5ac524206"
